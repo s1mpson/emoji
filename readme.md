@@ -9,9 +9,16 @@
   - [`hasEmoji`](#hasemoji-string)
   - [`trimEmoji`](#trimemoji-string)
   - [`extractEmoji`](#extractemoji-string)
+- [`Author`](#author)
 - [`Licence`](#license)
 
 ### Import
+
+```ts
+import { isEmoji } from "https://deno.land/x/emoji/mod.ts";
+```
+
+or
 
 ```ts
 import { isEmoji } from "https://raw.githubusercontent.com/s1mpson/emoji/master/mod.ts";
@@ -52,6 +59,11 @@ Returns an array of emoji extracted from the string.
 ```ts
 extractEmoji('🦕 ❤️ 🦄'); // ["🦕", "❤️", "🦄"]
 ```
+
+## Author
+
+- [`s1mpson`](https://github.com/s1mpson) on Github
+- [`s1mpson4real`](https://twitter.com/s1mpson4real) on Twitter
 
 ## License
 Copyright © [Max Mikhalchuk](https://github.com/s1mpson).
